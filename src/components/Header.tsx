@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "../../public/guiaDoFuturoLogo.svg";
 import Image from "next/image";
 
@@ -40,9 +41,12 @@ export const Header = () => {
           Assinatura Premium
         </a>
       </div>
-      <button className="bg-[#1BA1E7] text-white px-4 py-2 rounded-lg w-40">
-        Criar conta
-      </button>
+      <Link
+        href="/login"
+        className="bg-[#1BA1E7] text-white px-4 py-2 rounded-lg w-40 text-center"
+      >
+        Entrar
+      </Link>
     </div>
   );
 };
