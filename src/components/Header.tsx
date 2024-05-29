@@ -8,13 +8,13 @@ export const Header = () => {
       <Image src={Logo} alt="Guia do Futuro" width={200} height={50} />
       <div className="flex w-[100%] justify-center items-center gap-16">
         <a
-          href="#"
+          href="/"
           className="text-white text-md font-semibold hover:underline"
         >
           Faculdade
         </a>
         <a
-          href="#"
+          href="/course"
           className="text-white text-md font-semibold hover:underline"
         >
           Exercícios
